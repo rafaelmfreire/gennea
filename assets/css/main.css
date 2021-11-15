@@ -1,0 +1,73 @@
+.btn {
+  /* background: radial-gradient(76% 71.09% at 13.25% 16.59%, rgba(121, 233, 20, 0.95) 0%, #6fce1a 100%); */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+	@apply rounded-md px-5 py-3 inline-block bg-green-light hover:bg-green-dark hover:text-green-light transition-colors duration-300;
+}
+/* .btn:hover {
+	background: #0F5156;
+} */
+
+.nuxtlink {
+	@apply border-b-2 text-green-dark border-green-light hover:border-green-dark font-medium;
+}
+
+.link {
+	@apply border-b-2 text-green-dark border-green-light hover:border-green-dark font-medium transition-colors duration-300;
+}
+.link-white {
+	@apply border-b-2 text-white border-green-light hover:border-white font-normal transition-colors duration-300;
+}
+.link::after, .link-white::after {
+	content: url(~/assets/arrow.svg);
+	margin-left: 8px;
+}
+
+.check li::before {
+	content: url(~/assets/check.svg);
+	margin-right: 8px;
+}
+
+.circle {
+	list-style-position: outside;
+	margin-left: 1.5em;
+}
+
+.circle li::before {
+	content: url(~/assets/circle.svg);
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.5em; /* Also needed for space (tweak if needed) */
+}
+
+.econtainer {
+	max-width: 1140px;
+}
+
+.econtainer-sm {
+	max-width: 720px;
+}
+
+.card-process {
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 300ms;
+}
+.card-process:hover {
+	background: radial-gradient(76% 71.09% at 13.25% 16.59%, rgba(121, 233, 20, 0.95) 0%, #6FCE1A 100%);
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 300ms;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0);
+	}
+	66% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
