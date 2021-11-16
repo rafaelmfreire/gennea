@@ -17,10 +17,19 @@
 		<div class="mb-12">
 			<div class="econtainer-sm mx-auto text-green-dark">
 				<h2 class="text-2xl font-bold pt-16 mb-10">Etapas do Processo</h2>
+
+				<div class="bg-green-light20 rounded-md px-6 py-8 text-green-dark mb-8 border border-green-light">
+					<h3 class="text-xl font-bold mb-6">Importante!</h3>
+					<p class="mb-6">A CIL permite que um estudo genealógico já aprovado para um Requerente inicial seja reusado para outros membros da família<spam class="font-bold">*</spam>, dessa forma, o grupo familiar pode <strong class="font-bold">se beneficiar da divisão dos custos do processo</strong>.</p>
+					<p class="leading-none">
+						<small class="font-base leading-none">* ascendentes ou descendentes do Requerente inicial em linha direta ou colateral até três gerações.</small>
+					</p>
+				</div>
 				<p class="mb-4">Diante do exposto no Decreto, com o objetivo de requerer a Nacionalidade Portuguesa, há três etapas a serem seguidas:</p>
 
 				<h3 class="text-xl font-bold mt-8 mb-6">1. Pré-análise / Estudo genealógico</h3>
 				<p class="mb-6">Nessa etapa é necessário coletar o maior número de informações familiares possível, qualquer tipo de documento ou informação sobre a família e seus antepassados pode ser útil, por mínima que seja.</p>
+
 				<p class="mb-6">Exemplos de documentos que podem auxiliar na pesquisa:</p>
 				<ul class="list-disc list-inside space-y-1 mb-8">
 					<li>Certidão de nascimento do Requerente</li>
@@ -62,13 +71,6 @@
 					<li>Custos processuais do requerimento (Governo Português)</li>
 				</ol>
 				<p class="mb-6"><small class="font-base leading-none">* Os custos serão detalhados antes da assinatura do contrato.</small></p>
-
-				<h3 class="text-xl font-bold mt-8 mb-6">Informações adicionais</h3>
-				<p class="mb-6">A CIL permite que um estudo genealógico já aprovado para um Requerente inicial seja usado para outros membros da família<spam class="font-bold">*</spam>, dessa forma, o grupo familiar pode se beneficiar da divisão dos custos do processo.</p>
-				<p class="leading-none">
-				<small class="font-base leading-none">* ascendentes ou descendentes do Requerente inicial em linha direta ou colateral até três gerações.</small>
-				</p>
-
 			</div>
 		</div>
 	</section>

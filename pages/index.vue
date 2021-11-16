@@ -5,7 +5,7 @@
 		<div class="econtainer mx-auto">
 			<navigation />
 
-			<div class="flex">
+			<div class="flex mt-24">
 				<div data-aos="fade-right" class="mt-16"> <!-- Texts -->
 					<h1 class="text-6xl text-green-dark font-bold tracking-tight mb-5">Obtenha a cidadania <br />portuguesa para você <br />e toda sua família</h1>
 					<p class="text-green-dark opacity-80 mb-8">Fazemos estudo genealógico familiar em busca de <br />ascendência Judaica Sefardita e todo o processo <br />burocrático para fins de obtenção da cidadania <br />portuguesa conforme Decreto Lei nº 30-A/2015</p>
@@ -170,11 +170,12 @@
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Suassuna</li>
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Dantas</li>
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Vilar</li>
+				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Maia</li>
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Macêdo</li>
 			</ul>
 			<ul class="flex items-center justify-between mt-4">
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Andrade</li>
-				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Maia</li>
+				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Medeiros</li>
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Vasconcelos</li>
 				<li data-aos="flip-left" class="bg-green-light bg-opacity-30 hover:bg-opacity-100 text-xl font-bold uppercase text-green-dark px-6 py-2 rounded-md transition-colors duration-300">Cavalcante</li>
 			</ul>
