@@ -34,7 +34,7 @@
 				<div class="econtainer-sm mx-auto text-green-dark">
 					<h2 class="text-2xl font-bold pt-16 mb-10">Entre em contato conosco</h2>
 
-					<form action="#" method="POST">
+					<form  name="contact" method="POST" data-netlify="true">
 						<div class="space-y-6">
 							<div>
 								<label for="nome" class="block text-sm font-medium text-gray-700">Nome</label>
@@ -61,7 +61,7 @@
 								</div>
 							</div>
 							<div>
-								<button type="button" class="btn">
+								<button type="submit" class="btn">
                   Enviar
                 </button>
 							</div>
