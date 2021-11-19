@@ -100,7 +100,7 @@
 		</div>
 	</section> <!-- Processo -->
 
-	<section data-aos="fade-up" class="py-16 bg-green-light10">
+	<!-- <section data-aos="fade-up" class="py-16 bg-green-light10">
 		<div class="econtainer-sm mx-auto">
 			<h2 class="text-3xl text-center text-green-dark font-bold mb-8">O que os clientes dizem</h2>
 			<ul class="flex items-start space-x-8">
@@ -126,7 +126,7 @@
 				</li>
 			</ul>
 		</div>
-	</section>
+	</section> -->
 
 
 	<section class="py-16 bg-white" data-aos="fade-right">

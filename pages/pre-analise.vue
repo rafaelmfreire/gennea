@@ -32,7 +32,8 @@
 				<div class="econtainer-sm mx-auto text-green-dark">
 					<h2 class="text-2xl font-bold pt-16 mb-10">Peça agora</h2>
 
-					<form action="#" method="POST">
+					<form  name="preanalise" method="POST" data-netlify="true">
+						<input type="hidden" name="form-name" value="PreAnalise">
 						<div class="space-y-6">
 							<div>
 								<label for="nome" class="block text-sm font-medium text-gray-700">Nome</label>
