@@ -2,8 +2,12 @@
 	<footer class="bg-green-light20 py-4">
 		<div class="flex items-center justify-between econtainer mx-auto">
 			<p>&copy; 2021 GENNEA. Todos os direitos reservados.</p>
-			<div class="flex items-center space-x-16">
-				<ul class="flex items-center space-x-8 text-sm uppercase">
+			<div class="flex items-center space-x-16 text-sm">
+				Feito por:
+				<a href="http://be.net/rafaeldemacedo" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 ml-2" viewBox="0 0 479.05 237.76"><defs><style>.cls-1{fill:#3e3e3e;}</style></defs><title>Monograma RM</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="241.46 67.4 207.84 101.03 344.56 237.76 277.31 237.76 174.2 134.65 140.58 168.29 210.07 237.76 142.82 237.76 73.33 168.27 106.95 134.65 140.58 101.03 87.1 47.55 47.56 47.55 47.56 237.76 0 237.76 0 0 106.8 0 154.36 47.55 174.2 67.4 194.06 47.55 207.84 33.78 241.46 0.16 479.05 237.76 411.82 237.76 241.46 67.4"/></g></g></svg>
+				</a>
+				<!-- <ul class="flex items-center space-x-8 text-sm uppercase">
 					<li><NuxtLink to="/como-funciona">Como Funciona</NuxtLink></li>
 					<li><NuxtLink to="/contato">Contato</NuxtLink></li>
 					<li><NuxtLink to="/pre-analise">Pré-Análise</NuxtLink></li>
@@ -25,7 +29,7 @@
 						></path>
 					</svg>
 					</a>
-					<!-- <svg
+					<svg
 						aria-hidden="true"
 						focusable="false"
 						data-icon="facebook-square"
@@ -38,8 +42,8 @@
 							fill="currentColor"
 							d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
 						></path>
-					</svg> -->
-				</div>
+					</svg>
+				</div> -->
 			</div>
 		</div>
 	</footer>
