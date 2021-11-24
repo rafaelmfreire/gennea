@@ -1,57 +1,60 @@
 <template>
-<div>
+<div class="">
 	<header-comp />
-	<section class="bg-green-light10 py-8"> <!-- Hero -->
-		<div class="econtainer mx-auto">
+	<section class="bg-green-light10 py-8"> 
+		<div class="econtainer padding-auto">
 			<navigation />
 
-			<div class="flex mt-24">
-				<div data-aos="fade-right" class="mt-16"> <!-- Texts -->
-					<h1 class="text-6xl text-green-dark font-bold tracking-tight mb-5">Obtenha a cidadania <br />portuguesa para você <br />e toda sua família</h1>
-					<p class="text-green-dark opacity-80 mb-8">Fazemos estudo genealógico familiar em busca de <br />ascendência Judaica Sefardita e todo o processo <br />burocrático para fins de obtenção da cidadania <br />portuguesa conforme Decreto Lei nº 30-A/2015</p>
+			<div class="flex flex-col lg:flex-row justify-between  mt-24 text-center lg:text-left px-4 xl:px-0">
+				<div data-aos="fade-right" class="mt-6">
+					<h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-green-dark font-bold tracking-tight mb-5">Obtenha a cidadania <br />portuguesa para você <br />e toda sua família</h1>
+					<p class="mx-auto lg:mx-0 text-green-dark opacity-80 mb-8 w-full sm:w-7/12 lg:w-11/12 text-base lg:text-sm xl:text-base">Fazemos estudo genealógico familiar em busca de ascendência Judaica Sefardita e todo o processo burocrático para fins de obtenção da cidadania portuguesa conforme Decreto Lei nº 30-A/2015</p>
 
-					<div class="space-x-6 mb-8">
+					<div class="sm:space-x-6 mb-8 flex flex-col justify-center lg:justify-start sm:flex-row space-y-8 sm:space-y-0 sm:items-center">
 						<NuxtLink to="/pre-analise" class="btn">Faça a pré-análise</NuxtLink>
-						<NuxtLink to="/como-funciona" class="link">Saiba como funciona</NuxtLink>
+						<div>
+							<NuxtLink to="/como-funciona" class="link">Saiba como funciona</NuxtLink>
+						</div>
 					</div>
 
-					<ul class="text-xs font-medium space-y-3 check">
+					<ul class="text-xs font-medium space-y-3 check mx-auto inline-block">
 						<li class="flex items-center leading-3">Pré-análise gratuita e sem compromisso</li>
 						<li class="flex items-center leading-3">Mais de 100 pessoas já deram entrada no processo conosco</li>
 					</ul>
-				</div> <!-- end Texts -->
-				<div style="width: 100%; max-width: 671px; margin-top: 10px; margin-right: -145px">
-					<div class="w-full relative" style="height: 533px">
-						<img data-aos="zoom-in" src="~/assets/passport-br.png" alt="Ilustração de um passaporte brasileiro" style="top: 60px; left: 0;" class="absolute">
-						<img data-aos="zoom-in" src="~/assets/passport-pt.png" alt="Ilustração de um passaporte português" style="top: 0px; right: 115px;" class="absolute">
-						<img data-aos="zoom-out" data-aos-delay="500" src="~/assets/carimbo.svg" alt="Carimbo circular com o logo da Gennea" class="absolute top-0 right-0" >
-					</div>
 				</div>
+				<img class="mx-auto mt-12 lg:mt-0 h-auto max-w-full md:max-w-[516px] md:max-h-[472px]" src="~/assets/passports.png" alt="">
+				<!-- <div class="w-full max-w-[671px]">
+					<div class="w-full relative" style="height: 533px">
+						<img data-aos="zoom-in" src="~/assets/passport-br.png" alt="Ilustração de um passaporte brasileiro" style="top: 60px; left: 115px;" class="absolute">
+						<img data-aos="zoom-in" src="~/assets/passport-pt.png" alt="Ilustração de um passaporte português" class="absolute top-0 right-0">
+						<img data-aos="zoom-out" data-aos-delay="500" src="~/assets/carimbo.svg" alt="Carimbo circular com o logo da Gennea" class="absolute top-[160px] right-[30px]" >
+					</div>
+				</div> -->
 			</div>
 		</div>
-	</section> <!-- end Hero -->
+	</section> 
 
 	<section>
 		<div class="mb-12" style="background-image: linear-gradient(to bottom, #F1FAE8 70%, white 16px);">
-			<div class="econtainer mx-auto">
+			<div class="econtainer mx-auto md:px-4">
 				<h2 data-aos="zoom-in" class="text-center text-3xl text-green-dark font-bold pt-16 mb-12">Benefícios de ter a cidadania</h2>
 				<div>
-					<ul class="flex items-start space-x-8">
-						<li data-aos="fade-up" class="bg-white p-8 rounded-md border border-green-dark border-opacity-10 shadow-lg w-1/3">
+					<ul class="flex flex-col md:flex-row items-start space-y-0 sm:space-y-8 md:space-y-0 md:space-x-8 sm:mx-8 md:mx-0">
+						<li data-aos="fade-up" class="bg-white p-8 sm:rounded-md border border-green-dark border-opacity-10 shadow-lg w-full md:w-1/3">
 							<div class="flex items-center mb-4">
 								<img src="~/assets/passport-icon.svg" alt="Ícone de passaporte">
 								<h3 class="text-green-dark text-lg font-bold ml-4">Passaporte Europeu</h3>
 							</div>
 							<p class="text-green-dark">Morar e transitar em qualquer um dos 27 países que fazem parte da União Européia</p>
 						</li>
-						<li data-aos="fade-up" class="bg-white p-8 rounded-md border border-green-dark border-opacity-10 shadow-lg w-1/3">
+						<li data-aos="fade-up" class="bg-white p-8 sm:rounded-md border border-green-dark border-opacity-10 shadow-lg w-full md:w-1/3">
 							<div class="flex items-center mb-4">
 								<img src="~/assets/work-icon.svg" alt="Ícone trabalhando">
 								<h3 class="text-green-dark text-lg font-bold ml-4">Trabalhar e Estudar</h3>
 							</div>
 							<p class="text-green-dark">Como cidadão, você pode não só morar, mas também trabalhar e estudar</p>
 						</li>
-						<li data-aos="fade-up" class="bg-white p-8 rounded-md border border-green-dark border-opacity-10 shadow-lg w-1/3">
+						<li data-aos="fade-up" class="bg-white p-8 sm:rounded-md border border-green-dark border-opacity-10 shadow-lg w-full md:w-1/3">
 							<div class="flex items-center mb-4">
 								<img src="~/assets/kids-icon.svg" alt="Ícone de crianças">
 								<h3 class="text-green-dark text-lg font-bold ml-4">Repassar para filhos</h3>
@@ -62,43 +65,45 @@
 				</div>
 			</div>
 		</div>
-	</section> <!-- Benefícios -->
+	</section> 
 
 	<section data-aos="fade-right" class="bg-white py-16">
-		<div class="econtainer-sm mx-auto">
+		<div class="econtainer-sm mb-8  padding-auto">
 			<h2 class="text-3xl text-green-dark font-bold mb-4">O que diz o Decreto Lei?</h2>
-			<p class="text-green-dark text-opacity-80 w-5/6">“[...]O presente diploma vem permitir o exercício do direito ao retorno dos descendentes judeus sefarditas de origem portuguesa que o desejem, mediante a aquisição da nacionalidade portuguesa por naturalização, e sua integração na comunidade nacional, com os inerentes direitos e obrigações.”</p>
+			<p class="text-green-dark text-opacity-80 w-full md:w-5/6">“[...]O presente diploma vem permitir o exercício do direito ao retorno dos descendentes judeus sefarditas de origem portuguesa que o desejem, mediante a aquisição da nacionalidade portuguesa por naturalização, e sua integração na comunidade nacional, com os inerentes direitos e obrigações.”</p>
 			<NuxtLink to="/decreto" class="link mt-8 inline-block">Entenda mais sobre o Decreto Lei</NuxtLink>
 		</div>
-	</section> <!-- Decreto -->
+	</section> 
 
 	<section class="py-16" style="background: radial-gradient(97.74% 1836.86% at 1.28% 4.62%, #0F5641 0%, #0F5156 100%);">
 		<div class="econtainer-sm mx-auto">
-			<h2 class="text-3xl text-white font-bold mb-4">Etapas do processo</h2>
-			<p class="text-white font-light text-opacity-70 mb-6">Com o objetivo de requerer a Nacionalidade Portuguesa, há três etapas a serem seguidas:</p>
+			<div class="mb-8 padding">
+				<h2 class="text-3xl text-white font-bold mb-4">Etapas do processo</h2>
+				<p class="text-white font-light text-opacity-70 mb-6">Com o objetivo de requerer a Nacionalidade Portuguesa, há três etapas a serem seguidas:</p>
+			</div>
 
-			<ul class="flex items-start space-x-4">
-				<li data-aos="flip-left" class="bg-green-card rounded-md p-6 card-process group w-1/3">
+			<ul class="flex flex-col md:flex-row items-start space-y-1 sm:space-y-8 md:space-y-0 md:space-x-8 sm:mx-8 md:mx-0">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3">
 					<p class="text-green-light group-hover:text-white mb-8">01.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Genealogia</h3>
 					<p class="text-white text-opacity-60 text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Busca da ascendência judaica sefardita através de documentos, relatos de familiares e livros históricos</p>
 				</li>
-				<li data-aos="flip-left" class="bg-green-card rounded-md p-6 card-process group w-1/3">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3">
 					<p class="text-green-light group-hover:text-white mb-8">02.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Certificado</h3>
 					<p class="text-white text-opacity-60 text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Requisição da certificação de ascendência na Comunidade Israelita de Lisboa (CIL)</p>
 				</li>
-				<li data-aos="flip-left" class="bg-green-card rounded-md p-6 card-process group w-1/3">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3">
 					<p class="text-green-light group-hover:text-white mb-8">03.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Nacionalidade</h3>
 					<p class="text-white text-opacity-60 text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Requisição da nacionalidade portuguesa perante o Governo Português</p>
 				</li>
 			</ul>
 
-			<NuxtLink to="/como-funciona" class="link-white mt-8 inline-block transition-colors duration-300">Veja mais detalhes sobre o processo</NuxtLink>
+			<NuxtLink to="/como-funciona" class="link-white mt-8 inline-block transition-colors duration-300 ml-4 sm:ml-8 md:ml-0">Veja mais detalhes sobre o processo</NuxtLink>
 
 		</div>
-	</section> <!-- Processo -->
+	</section> 
 
 	<!-- <section data-aos="fade-up" class="py-16 bg-green-light10">
 		<div class="econtainer-sm mx-auto">
@@ -131,7 +136,7 @@
 
 	<section class="py-16 bg-white" data-aos="fade-right">
 		<div class="econtainer-sm mx-auto">
-			<h2 class="text-3xl text-green-dark font-bold mb-8">Dúvidas Frequentes</h2>
+			<h2 class="text-3xl text-green-dark font-bold mb-8 padding">Dúvidas Frequentes</h2>
 
 			<ul class="divide-y divide-green-light divide-opacity-10">
 				<disclosure title="O que é judeu sefardita?">Judeu Sefardita é o Judeu que habitou a península Ibérica até o início das perseguições, ao fim da Idade Média. Os Judeus Sefarditas foram perseguidos pelo Tribunal da Santa Inquisição e precisaram fugir de suas origens para as novas terras conquistadas pelos portugueses e espanhóis.</disclosure>
@@ -162,7 +167,7 @@
 	</section> <!-- Dúvidas -->
 
 
-	<section class="py-16 bg-white">
+	<!-- <section class="py-16 bg-white">
 		<div class="econtainer-sm mx-auto">
 			<h2 data-aos="fade-up" class="text-3xl text-green-dark font-bold mb-8">Algumas famílias que já tem a ascendência sefardita comprovada</h2>
 
@@ -185,7 +190,7 @@
 				<li class="text-green-dark">Mas se você não faz parte ou não sabe, não se preocupe! Ainda é possível, através da pesquisa genealógica, descobrir se você possui ascendência judaico sefardita.</li>
 			</ul>
 		</div>
-	</section> <!-- Famílias -->
+	</section>  -->
 
 	<cta />
 

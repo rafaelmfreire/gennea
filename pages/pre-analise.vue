@@ -4,7 +4,7 @@
 
 		<section class="bg-green-light10 py-8">
 			<!-- Hero -->
-			<div class="econtainer mx-auto">
+			<div class="econtainer padding-auto">
 				<navigation />
 				<div class="econtainer-sm mx-auto pt-6 pb-10">
 					<h1 class="text-3xl text-green-dark font-bold pt-16 mb-5">Pré-análise</h1>
@@ -29,7 +29,7 @@
 
 		<section>
 			<div class="mb-12">
-				<div class="econtainer-sm mx-auto text-green-dark">
+				<div class="econtainer-sm padding-auto text-green-dark">
 					<h2 class="text-2xl font-bold pt-16 mb-10">Peça agora</h2>
 
 					<form  name="preanalise" method="POST" data-netlify-recaptcha="true" data-netlify="true">

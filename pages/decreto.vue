@@ -3,7 +3,7 @@
 	<header-comp />
 
 	<section class="bg-green-light10 py-8"> <!-- Hero -->
-		<div class="econtainer mx-auto">
+		<div class="econtainer padding-auto">
 			<navigation />
 			<div class="econtainer-sm mx-auto pt-6 pb-10">
 				<h1 class="text-3xl text-green-dark font-bold pt-16 mb-5">Decreto Lei nº 30-A/2015</h1>
@@ -15,7 +15,7 @@
 
 	<section>
 		<div class="mb-12">
-			<div class="econtainer-sm mx-auto text-green-dark">
+			<div class="econtainer-sm padding-auto text-green-dark">
 				<h2 class="text-2xl font-bold pt-16 mb-10">Motivação da Lei</h2>
 				<p class="mb-4">A possibilidade foi concedida, segundo o próprio texto da Lei, sob a seguinte motivação:</p>
 				<p class="mb-4 italic">“Apesar das perseguições e do afastamento do seu território ancestral, muitos judeus sefarditas de origem portuguesa e seus descendentes mantiveram não só a língua portuguesa, mas também os ritos tradicionais do antigo culto judaico em Portugal, conservando, ao longo de gerações, os seus apelidos de família, objetos e documentos comprovativos da sua origem portuguesa, a par de uma forte relação memorial que os leva a denominarem-se a si mesmos como «judeus portugueses» ou «judeus da Nação portuguesa».</p>

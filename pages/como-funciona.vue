@@ -3,7 +3,7 @@
 	<header-comp />
 
 	<section class="bg-green-light10 py-8"> <!-- Hero -->
-		<div class="econtainer mx-auto">
+		<div class="econtainer padding-auto">
 			<navigation />
 			<div class="econtainer-sm mx-auto pt-6 pb-10">
 				<h1 class="text-3xl text-green-dark font-bold pt-16 mb-5">Como funciona</h1>
@@ -15,12 +15,12 @@
 
 	<section>
 		<div class="mb-12">
-			<div class="econtainer-sm mx-auto text-green-dark">
+			<div class="econtainer-sm padding-auto text-green-dark">
 				<h2 class="text-2xl font-bold pt-16 mb-10">Etapas do Processo</h2>
 
 				<div class="bg-green-light20 rounded-md px-6 py-8 text-green-dark mb-8 border border-green-light">
 					<h3 class="text-xl font-bold mb-6">Importante!</h3>
-					<p class="mb-6">A CIL permite que um estudo genealógico já aprovado para um Requerente inicial seja reusado para outros membros da família<spam class="font-bold">*</spam>, dessa forma, o grupo familiar pode <strong class="font-bold">se beneficiar da divisão dos custos do processo</strong>.</p>
+					<p class="mb-6">A CIL permite que um estudo genealógico já aprovado para um Requerente inicial seja reusado para outros membros da família<span class="font-bold">*</span>, dessa forma, o grupo familiar pode <strong class="font-bold">se beneficiar da divisão dos custos do processo</strong>.</p>
 					<p class="leading-none">
 						<small class="font-base leading-none">* ascendentes ou descendentes do Requerente inicial em linha direta ou colateral até três gerações.</small>
 					</p>
