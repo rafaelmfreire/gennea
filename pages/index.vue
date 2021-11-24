@@ -5,7 +5,7 @@
 		<div class="econtainer padding-auto">
 			<navigation />
 
-			<div class="flex flex-col lg:flex-row justify-between  mt-24 text-center lg:text-left px-4 xl:px-0">
+			<div class="flex flex-col lg:flex-row justify-between  mt-16 sm:mt-24 text-center lg:text-left px-4 xl:px-0">
 				<div data-aos="fade-right" class="mt-6">
 					<h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-green-dark font-bold tracking-tight mb-5">Obtenha a cidadania <br />portuguesa para você <br />e toda sua família</h1>
 					<p class="mx-auto lg:mx-0 text-green-dark opacity-80 mb-8 w-full sm:w-7/12 lg:w-11/12 text-base lg:text-sm xl:text-base">Fazemos estudo genealógico familiar em busca de ascendência Judaica Sefardita e todo o processo burocrático para fins de obtenção da cidadania portuguesa conforme Decreto Lei nº 30-A/2015</p>
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 
-					<ul class="text-xs font-medium space-y-3 check mx-auto inline-block">
+					<ul class="text-xs font-medium text-left space-y-3 check mx-auto inline-block">
 						<li class="flex items-center leading-3">Pré-análise gratuita e sem compromisso</li>
 						<li class="flex items-center leading-3">Mais de 100 pessoas já deram entrada no processo conosco</li>
 					</ul>
