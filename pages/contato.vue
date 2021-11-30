@@ -34,7 +34,7 @@
 				<div class="econtainer-sm padding-auto text-green-dark">
 					<h2 class="text-2xl font-bold pt-16 mb-10">Entre em contato conosco</h2>
 
-					<form  name="contact" method="POST" data-netlify="true">
+					<form  name="Contato" method="POST" data-netlify="true">
 						<input type="hidden" name="form-name" value="Contato">
 						<div class="space-y-6">
 							<div>

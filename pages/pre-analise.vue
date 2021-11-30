@@ -32,7 +32,7 @@
 				<div class="econtainer-sm padding-auto text-green-dark">
 					<h2 class="text-2xl font-bold pt-16 mb-10">Peça agora</h2>
 
-					<form  name="preanalise" method="POST" data-netlify="true">
+					<form  name="PreAnalise" method="POST" data-netlify="true">
 						<input type="hidden" name="form-name" value="PreAnalise">
 						<div class="space-y-6">
 							<div>
