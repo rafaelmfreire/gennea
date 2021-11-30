@@ -34,7 +34,7 @@
 				<div class="econtainer-sm padding-auto text-green-dark">
 					<h2 class="text-2xl font-bold pt-16 mb-10">Entre em contato conosco</h2>
 
-					<form  name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+					<form  name="contact" method="POST" data-netlify="true">
 						<input type="hidden" name="form-name" value="Contato">
 						<div class="space-y-6">
 							<div>
@@ -61,7 +61,6 @@
 									<textarea id="mensagem" name="mensagem" rows="3" class="shadow-sm focus:ring-green-dark focus:border-green-dark mt-1 block w-full sm:text-sm border border-green-light border-opacity-30 rounded-md" placeholder="Estou com dúvida sobre..."></textarea>
 								</div>
 							</div>
-							<div data-netlify-recaptcha="true"></div>
 							<div>
 								<button type="submit" class="btn">
                   Enviar
