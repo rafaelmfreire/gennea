@@ -61,6 +61,7 @@
 									<textarea id="mensagem" name="mensagem" rows="3" class="shadow-sm focus:ring-green-dark focus:border-green-dark mt-1 block w-full sm:text-sm border border-green-light border-opacity-30 rounded-md" placeholder="Estou com dúvida sobre..."></textarea>
 								</div>
 							</div>
+							<div data-netlify-recaptcha="true"></div>
 							<div>
 								<button type="submit" class="btn">
                   Enviar

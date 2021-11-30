@@ -60,6 +60,7 @@
 								</div>
 							</div>
 							<div>
+								<div data-netlify-recaptcha="true"></div>
 								<button type="button" class="btn">
                   Enviar
                 </button>
