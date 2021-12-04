@@ -160,7 +160,7 @@
 				</disclosure>
 				<disclosure title="Existe garantia de que vou conseguir meu certificado e minha cidadania?">
 					<p>Nós da Gennea trabalhamos de forma a enviar relatórios que tenham 100% de viabilidade, com provas suficientes desde o requerente até o Judeu Sefardita, mas os relatórios são avaliados por historiadores da própria Comunidade.</p>
-					<p class="mt-4">Não conseguimos garantir a aprovação do processo, mas oferecemos todo o apoio possível para resumir quaisquer dúvidas ou solicitações da CIL, durante o processo.</p>
+					<p class="mt-4">Podemos garantir a viabilidade do processo, segundo a legislação vigente, e oferecemos todo o apoio possível para dirimir quaisquer dúvidas ou solicitações da CIL, durante o processo.</p>
 				</disclosure>
 			</ul>
 		</div>
