@@ -83,17 +83,17 @@
 			</div>
 
 			<ul class="flex flex-col md:flex-row items-start space-y-1 sm:space-y-8 md:space-y-0 md:space-x-8 sm:mx-8 md:mx-0">
-				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
 					<p class="text-green-light group-hover:text-white mb-8">01.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Genealogia</h3>
 					<p class="text-white text-opacity-60 text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Busca da ascendência judaica sefardita através de documentos, relatos de familiares e livros históricos</p>
 				</li>
-				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
 					<p class="text-green-light group-hover:text-white mb-8">02.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Certificado</h3>
 					<p class="text-white text-opacity-60 text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Requisição da certificação de ascendência na Comunidade Israelita de Lisboa (CIL)</p>
 				</li>
-				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
 					<p class="text-green-light group-hover:text-white mb-8">03.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Nacionalidade</h3>
 					<p class="text-white text-opacity-60 text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Requisição da nacionalidade portuguesa perante o Governo Português</p>
