@@ -9,7 +9,7 @@
 			<navigation />
 
 			<div class="flex flex-col lg:flex-row justify-between  mt-16 sm:mt-24 text-center lg:text-left px-4 xl:px-0">
-				<div  class="mt-6">
+				<div data-aos="fade-right" class="mt-6">
 					<h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-green-dark font-bold tracking-tight mb-5">Obtenha a cidadania <br />portuguesa para você <br />e toda sua família</h1>
 					<p class="mx-auto lg:mx-0 text-green-dark opacity-80 mb-8 w-full sm:w-7/12 lg:w-11/12 text-base lg:text-sm xl:text-base">Fazemos estudo genealógico familiar em busca de ascendência Judaica Sefardita e todo o processo burocrático para fins de obtenção da cidadania portuguesa conforme Decreto Lei nº 30-A/2015</p>
 
@@ -40,31 +40,31 @@
 	<section>
 		<div class="mb-12" style="background-image: linear-gradient(to bottom, #F1FAE8 70%, white 16px);">
 			<div class="econtainer mx-auto md:px-4">
-				<h2  class="text-center text-3xl text-green-dark font-bold pt-16 mb-12">Benefícios de ter a cidadania</h2>
+				<h2 data-aos="zoom-in" class="text-center text-3xl text-green-dark font-bold pt-16 mb-12">Benefícios de ter a cidadania</h2>
 				<div>
 					<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:-ml-px">
-						<div  class="bg-white p-8 md:rounded-tl-md border lg:rounded-l-md border-green-dark border-opacity-10 shadow-lg w-full -mb-1 sm:ml-px lg:ml-1 lg:mb-0">
+						<div data-aos="fade-up" class="bg-white p-8 md:rounded-tl-md border lg:rounded-l-md border-green-dark border-opacity-10 shadow-lg w-full -mb-1 sm:ml-px lg:ml-1 lg:mb-0">
 							<div class="items-center mb-4">
 								<img src="~/assets/passport-icon.svg" alt="Ícone de passaporte">
 								<h3 class="text-green-dark text-lg font-bold mt-4">Passaporte Europeu</h3>
 							</div>
 							<p class="text-green-dark">Morar e transitar em qualquer um dos 27 países que fazem parte da União Européia</p>
 						</div>
-						<div  class="bg-white p-8 md:rounded-tr-md lg:rounded-none border border-green-dark border-opacity-10 shadow-lg w-full mt-px sm:mt-0 sm:-mb-1 lg:ml-px lg:mb-0">
+						<div data-aos="fade-up" class="bg-white p-8 md:rounded-tr-md lg:rounded-none border border-green-dark border-opacity-10 shadow-lg w-full mt-px sm:mt-0 sm:-mb-1 lg:ml-px lg:mb-0">
 							<div class="items-center mb-4">
 								<img src="~/assets/work-icon.svg" alt="Ícone trabalhando">
 								<h3 class="text-green-dark text-lg font-bold mt-4">Viver como europeu</h3>
 							</div>
 							<p class="text-green-dark">Como cidadão, você pode não só morar, mas também trabalhar e estudar na europa</p>
 						</div>
-						<div  class="bg-white p-8 md:rounded-bl-md lg:rounded-none border border-green-dark border-opacity-10 shadow-lg w-full -mt-px sm:-mt-1 sm:ml-px lg:-ml-px lg:mt-0">
+						<div data-aos="fade-up" class="bg-white p-8 md:rounded-bl-md lg:rounded-none border border-green-dark border-opacity-10 shadow-lg w-full -mt-px sm:-mt-1 sm:ml-px lg:-ml-px lg:mt-0">
 							<div class="items-center mb-4">
 								<img src="~/assets/kids-icon.svg" alt="Ícone de crianças">
 								<h3 class="text-green-dark text-lg font-bold mt-4">Repassar para filhos</h3>
 							</div>
 							<p class="text-green-dark">Depois de adquirir a cidadania, seus descendentes terão os mesmos direitos</p>
 						</div>
-						<div  class="bg-white p-8 md:rounded-br-md lg:rounded-r-md border border-green-dark border-opacity-10 shadow-lg w-full -mt-1 lg:-ml-1 lg:mt-0">
+						<div data-aos="fade-up" class="bg-white p-8 md:rounded-br-md lg:rounded-r-md border border-green-dark border-opacity-10 shadow-lg w-full -mt-1 lg:-ml-1 lg:mt-0">
 							<div class="items-center mb-4">
 								<img src="~/assets/briefcase-icon.svg" alt="Ícone de crianças">
 								<h3 class="text-green-dark text-lg font-bold mt-4">Investir e empreender</h3>
@@ -107,7 +107,7 @@
 		</div>
 	</section> 
 
-	<section  class="bg-white py-16">
+	<section data-aos="fade-right" class="bg-white py-16">
 		<div class="econtainer-sm mb-8  padding-auto">
 			<h2 class="text-3xl text-green-dark font-bold mb-4">O que diz o Decreto Lei?</h2>
 			<p class="text-green-dark w-full md:w-5/6">“[...]O presente diploma vem permitir o exercício do direito ao retorno dos descendentes judeus sefarditas de origem portuguesa que o desejem, mediante a aquisição da nacionalidade portuguesa por naturalização, e sua integração na comunidade nacional, com os inerentes direitos e obrigações.”</p>
@@ -123,17 +123,17 @@
 			</div>
 
 			<ul class="flex flex-col md:flex-row items-start space-y-1 sm:space-y-8 md:space-y-0 md:space-x-8 sm:mx-8 md:mx-0">
-				<li  class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
 					<p class="text-green-light group-hover:text-white mb-8">01.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Genealogia</h3>
 					<p class="text-white  text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Busca da ascendência judaica sefardita através de documentos, relatos de familiares e livros históricos</p>
 				</li>
-				<li  class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
 					<p class="text-green-light group-hover:text-white mb-8">02.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Certificado</h3>
 					<p class="text-white  text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Requisição da certificação de ascendência na Comunidade Israelita de Lisboa (CIL)</p>
 				</li>
-				<li  class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
+				<li data-aos="flip-left" class="bg-green-card sm:rounded-md p-6 card-process group w-full md:w-1/3 md:min-h-[236px]">
 					<p class="text-green-light group-hover:text-white mb-8">03.</p>
 					<h3 class="text-white font-bold group-hover:text-green-dark mb-2">Nacionalidade</h3>
 					<p class="text-white  text-sm font-light group-hover:text-green-dark group-hover:text-opacity-100">Requisição da nacionalidade portuguesa perante o Governo Português</p>
@@ -174,7 +174,7 @@
 	</section> -->
 
 
-	<section class="py-16 bg-white" >
+	<section class="py-16 bg-white" data-aos="fade-right">
 		<div class="econtainer-sm mx-auto">
 			<h2 class="text-3xl text-green-dark font-bold mb-8 padding">Dúvidas Frequentes</h2>
 
