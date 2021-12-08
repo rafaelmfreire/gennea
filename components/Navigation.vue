@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<whatsapp />
 		<nav class="econtainer mx-auto md:px-4 xl:px-0 flex items-center justify-between">
 			<NuxtLink to="/">
 				<svg width="150" viewBox="0 0 113 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +16,7 @@
 			<div class="items-center md:space-x-24 flex">
 				<ul class="hidden md:flex items-center space-x-12 uppercase text-sm font-medium text-green-dark">
 					<li><NuxtLink to="/como-funciona" class=" hover:text-green-light transition-colors duration-300">Como funciona</NuxtLink></li>
-					<li><NuxtLink to="/contato" class=" hover:text-green-light transition-colors duration-300">Contato</NuxtLink></li>
+					<li><NuxtLink to="/contato" class=" hover:text-green-light transition-colors duration-300">Contatos</NuxtLink></li>
 				</ul>
 				<div class="flex items-center">
 					<div class="hidden sm:block mr-6 md:mr-0">
@@ -37,7 +38,7 @@
 			<div class="px-2 pt-8 pb-3 space-y-1">
 				<!-- <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Dashboard</a> -->
 				<NuxtLink to="/como-funciona" class="text-green-dark hover:text-green-light block px-3 py-2 rounded-md text-base font-medium uppercase">Como Funciona</NuxtLink>
-				<NuxtLink to="/contato" class="text-green-dark hover:text-green-light block px-3 py-2 rounded-md text-base font-medium uppercase">Contato</NuxtLink>
+				<NuxtLink to="/contato" class="text-green-dark hover:text-green-light block px-3 py-2 rounded-md text-base font-medium uppercase">Contatos</NuxtLink>
 			</div>
 				<div class="flex items-center space-x-8 divide-x divide-green-dark divide-opacity-10 pl-5 mt-5">
 					<a href="https://instagram.com/gennea.assessoria/" class="flex items-center" title="Instagram">

@@ -1,6 +1,6 @@
 <template>
 <div>
-	<header-comp />
+	<!-- <header-comp /> -->
 
 	<section class="bg-green-light10 py-8"> <!-- Hero -->
 		<div class="econtainer padding-auto">
@@ -87,6 +87,12 @@ import Header from '~/components/HeaderComp.vue';
 import Navigation from '~/components/Navigation.vue';
 
 export default {
+	head: {
+		title: 'Como funciona - GENNEA',
+    meta: [
+      { hid: "description-comofunciona", name: "description", content: "Como funciona o processo para obter a nacionalidade portuguesa pela via dos judeus sefarditas." },
+    ],
+	},
 	components: { Disclosure, Header, Navigation, FooterComp },
 };
 

@@ -1,6 +1,6 @@
 <template>
 <div>
-	<header-comp />
+	<!-- <header-comp /> -->
 
 	<section class="bg-green-light10 py-8"> <!-- Hero -->
 		<div class="econtainer padding-auto">
@@ -38,6 +38,12 @@ import Header from '~/components/HeaderComp.vue';
 import Navigation from '~/components/Navigation.vue';
 
 export default {
+	head: {
+		title: 'Sobre o Decreto Lei nº 30-A/2015 - GENNEA',
+    meta: [
+      { hid: "description-decreto", name: "description", content: "Entenda mais sobre o Decreto Lei nº 30-A/2015 do Ministério da Justiça Português." },
+    ],
+	},
 	components: { Disclosure, Header, Navigation, FooterComp },
 };
 

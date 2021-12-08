@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      { hid: "description", name: "description", content: "Obtenha seu passaporte europeu através de estudo genealógico pela via dos judeus sefarditas. Solicite sua pré-análise! É gratuita e sem compromisso!" },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],

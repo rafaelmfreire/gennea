@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<header-comp />
+		<!-- <header-comp /> -->
 
 		<section class="bg-green-light10 py-8">
 			<!-- Hero -->
@@ -80,6 +80,12 @@ import Header from "~/components/HeaderComp.vue";
 import Navigation from "~/components/Navigation.vue";
 
 export default {
+	head: {
+		title: 'Pré-análise - GENNEA',
+    meta: [
+      { hid: "description-preanalise", name: "description", content: "Peça a sua pré-análise de viabilidade para obtenção da cidadania portuguesa pela via dos judeus sefarditas." },
+    ],
+	},
 	components: { Disclosure, Header, Navigation, FooterComp },
 };
 </script>

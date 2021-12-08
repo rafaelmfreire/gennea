@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<header-comp />
+		<!-- <header-comp /> -->
 
 		<section class="bg-green-light10 py-8">
 			<!-- Hero -->
@@ -83,6 +83,12 @@ import Footer from "~/components/FooterComp.vue";
 import Navigation from "~/components/Navigation.vue";
 
 export default {
+	head: {
+		title: 'Contatos - GENNEA',
+    meta: [
+      { hid: "description-contato", name: "description", content: "Entre em contato conosco e solicite sua pré-análise para obtenção de passaporte português pela via dos judeus sefarditas." },
+    ],
+	},
 	components: { Disclosure, Header, Footer, Navigation },
 };
 </script>
