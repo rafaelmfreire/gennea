@@ -174,7 +174,7 @@
 	</section> -->
 
 
-	<section class="py-16 bg-white" data-aos="fade-right">
+	<section class="py-16 bg-white" >
 		<div class="econtainer-sm mx-auto">
 			<h2 class="text-3xl text-green-dark font-bold mb-8 padding">Dúvidas Frequentes</h2>
 
