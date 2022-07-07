@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<whatsapp />
 		<nav class="econtainer mx-auto md:px-4 xl:px-0 flex items-center justify-between">
 			<NuxtLink to="/">
 				<svg width="150" viewBox="0 0 113 32" fill="none" xmlns="http://www.w3.org/2000/svg">
