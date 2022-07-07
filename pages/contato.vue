@@ -8,7 +8,7 @@
 				<navigation />
 				<div class="econtainer-sm mx-auto pt-6 pb-10">
 					<h1 class="text-3xl text-green-dark font-bold pt-16 mb-5">Contatos</h1>
-					<p class="text-green-dark text-lg opacity-80 mb-8">Entre em contato conosco através das redes sociais, telefone/whatsapp, e-mail ou pelo formulário abaixo. Como achar melhor!</p>
+					<p class="text-green-dark text-lg opacity-80 mb-8">Entre em contato conosco através das redes sociais, e-mail ou pelo formulário abaixo. Como achar melhor!</p>
 					<div class="flex flex-col space-y-4 text-green-dark group">
 						<a href="https://instagram.com/gennea.assessoria" class="flex items-center hover:text-green-light">
 							<svg aria-hidden="true" focusable="false" data-icon="instagram" class="h-5 w-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" >
